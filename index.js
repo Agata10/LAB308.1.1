@@ -59,6 +59,11 @@ console.log(isDivisibleBy5); //true
 let largerNumber = n1 > n4;
 console.log(largerNumber); //true
 
+//arithmetic chain:
 //Substract the first number from the second
 let substract = n2 - n1;
 console.log(substract); //5
+
+//Multiply the result by the third number
+let mulitply = substract * n3; //100
+console.log(mulitply);
