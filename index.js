@@ -50,3 +50,7 @@ const dontDoThis =
   n2 != n3 &&
   n2 != n4 &&
   n3 != n4;
+
+// Checking if the number are divisible by 5
+let isDivisibleBy5 = n1 % 5 && n2 % 5 && n3 % 5 && n4 % 5;
+console.log(isDivisibleBy5);
