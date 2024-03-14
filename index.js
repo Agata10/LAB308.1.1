@@ -67,3 +67,7 @@ console.log(substract); //5
 //Multiply the result by the third number
 let mulitply = substract * n3; //100
 console.log(mulitply);
+
+//Find the remainder of dividing the result by the fourth number
+let remainder = mulitply % n4; //0
+console.log(remainder);
