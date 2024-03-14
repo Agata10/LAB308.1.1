@@ -53,8 +53,12 @@ const dontDoThis =
 
 // Checking if the number are divisible by 5
 let isDivisibleBy5 = n1 / 5 && n2 / 5 && n3 / 5 && n4 / 5;
-console.log(isDivisibleBy5);
+console.log(isDivisibleBy5); //true
 
 //Check if first number is  bigger than the last
 let largerNumber = n1 > n4;
-console.log(largerNumber);
+console.log(largerNumber); //true
+
+//Substract the first number from the second
+let substract = n2 - n1;
+console.log(substract); //5
