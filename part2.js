@@ -2,7 +2,7 @@ const distance = 1500;
 let budget = 175;
 let average = 3;
 
-// 55 miles per hour - 30 miles per gallon
+// 55 miles per hour - 30 miles per gallon --- this one
 //1.How many gallons of fuel will you need for the entire trip?
 let sumOfGallons = 1500 * (1 / 30);
 console.log(`Gallons if 55 miles per hour: ${sumOfGallons}`);
