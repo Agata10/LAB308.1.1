@@ -34,7 +34,9 @@ const isUnique =
 const isValid = isSum50 && isTwoOdd && isOver25 && isUnique;
 
 // Finally, log the results.
-console.log(isValid);
+console.log(
+  `The four numbers are valid according to the provided criteria: ${isValid}.`
+);
 
 // Here's another example of how this COULD be done,
 // but it SHOULD NOT be done this way. As programmers,
@@ -53,24 +55,28 @@ const dontDoThis =
 
 // Checking if the number are divisible by 5
 let isDivisibleBy5 = n1 / 5 && n2 / 5 && n3 / 5 && n4 / 5;
-console.log(isDivisibleBy5); //true
+console.log(`Checking if the number are divisible by 5 ${isDivisibleBy5}`); //true
 
 //Check if first number is  bigger than the last
 let largerNumber = n1 > n4;
-console.log(largerNumber); //true
+console.log(
+  `Check if first number is  bigger than the last, result:  ${largerNumber}`
+); //true
 
 //arithmetic chain:
 //Substract the first number from the second
 let substract = n2 - n1;
-console.log(substract); //5
+console.log(`Substract the first number from the second, result: ${substract}`); //5
 
 //Multiply the result by the third number
 let mulitply = substract * n3; //100
-console.log(mulitply);
+console.log(`Multiply the result by the third number, result: ${mulitply}`);
 
 //Find the remainder of dividing the result by the fourth number
 let remainder = mulitply % n4; //0
-console.log(remainder);
+console.log(
+  `Find the remainder of dividing the result by the fourth number, result: ${remainder}`
+);
 
 //Change the way that isOver25 calculates so that we do not need to use the NOT operator (!)
 // in other logic comparisons. Rename the variable as appropriate
